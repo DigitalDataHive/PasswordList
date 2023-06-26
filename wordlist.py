@@ -2,7 +2,7 @@ import os
 import string
 p = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
-fp = open(p+"/The Hound of the Baskervilles Book.txt", encoding="utf8")
+fp = open(p+"/<name of file>", encoding="utf8")
 
 
 words=[]
